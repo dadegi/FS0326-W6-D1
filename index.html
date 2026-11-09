@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="it">
+<html lang="it" data-bs-theme="dark">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,27 +11,37 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<script type="module" src="assets/js/script.js"></script>
 	</head>
 	<body>
+		<button type="button" id="theme">CAMBIA TEMA</button>
 		<h1 class="text-center">BOOTSTRAP</h1>
 		<div class="container-lg">
-			<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
-				<div class="col border-1 bg-warning fw-bold">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+				<div
+					class="col border border-1 border-light bg-warning fw-bold"
+				>
 					<p class="h1">COLONNA 1</p>
 				</div>
-				<div class="col border-1 bg-info fw-bold">
+				<div class="col border border-1 border-light bg-info fw-bold">
 					<p class="h1">COLONNA 2</p>
 				</div>
-				<div class="col border-1 bg-danger fw-bold">
+				<div class="col border border-1 border-light bg-danger fw-bold">
 					<p class="h1">COLONNA 3</p>
 				</div>
-				<div class="col border-1 bg-primary fw-bold">
+				<div
+					class="col border border-1 border-light bg-primary fw-bold"
+				>
 					<p class="h1">COLONNA 4</p>
 				</div>
-				<div class="col border-1 bg-secondary fw-bold">
+				<div
+					class="col border border-1 border-light bg-secondary fw-bold"
+				>
 					<p class="h1">COLONNA 5</p>
 				</div>
-				<div class="col border-1 bg-success fw-bold">
+				<div
+					class="col border border-1 border-light bg-success fw-bold"
+				>
 					<p class="h1">COLONNA 6</p>
 				</div>
 			</div>
@@ -84,6 +94,20 @@
 					</div>
 				</div>
 				<div class="col-5 border border-3">PRINCIPALE</div>
+			</div>
+		</div>
+
+		<hr />
+
+		<h3 class="myClass fs-3">CLASSE PERSONALIZZATA</h3>
+
+		<hr />
+
+		<h2>ESEMPIO CARD</h2>
+
+		<div class="container">
+			<div class="border rounded shadow-sm p-3 bg-white">
+				CARD SEMPLICE
 			</div>
 		</div>
 	</body>
